@@ -19,7 +19,7 @@ object Mp3Usenet {
   }
 
   def printUsenetHelp {
-    val client = createConnection("localhost", "gn231459", "p3rs3m3t")
+    val client = createConnection("localhost", "", "")
     println(client.listHelp())
     client.disconnect()
   }
