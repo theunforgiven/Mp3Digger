@@ -1,23 +1,27 @@
 package com.Mp3Digger.Repository
 
-case class Post(id: Option[String], poster: String, fileName: String, totalFilePartCount: Int, postFileParts: List[PostFilePart] = List[PostFilePart]()) {
+import sjson.json._
+import DefaultProtocol._
+import scala.annotation.target._
+import scala.reflect._
+
+@BeanInfo
+case class Post(@(OptionTypeHint @field)(value = classOf[String]) id: Option[String],
+                poster: String,
+                fileName: String,
+                totalFilePartCount: Int,
+                @(JSONTypeHint @field)(value = classOf[PostFilePart]) postFileParts: List[PostFilePart]) {
+	private def this() = this(null, null, null, 0, null)
 
 }
 
-case class PostFilePart(title: String, filePart: Int, articleId: String, articleNumber: Long){
-
+@BeanInfo
+case class PostFilePart(title: String, filePart: Int, articleId: String, articleNumber: Long) {
+	private def this() = this(null, 0, null, 0)
 }
 
-//    val post = getPreviousPost(article) match {
-//      case Some(x) => {
-//        val fileParts = postFilePart :: x.postFileParts
-//        val filePartCount = fileParts.length
-//        x.copy(postFileParts = fileParts, totalFilePartCount =  filePartCount)
-//      }
-//      case None => {
-//        val p = new Post(None, "poster", fileName, 1, List(postFilePart))
-//        p.copy(postFileParts = (postFilePart :: p.postFileParts))
-//      }
-//    }
-//
-//    savePost(post)
+object PostImports {
+
+	implicit val PostFormat        : Format[Post]         = asProduct5("id", "poster", "fileName", "totalFilePartCount", "postFileParts")(Post)(Post.unapply(_).get)
+	implicit val PostFilePartFormat: Format[PostFilePart] = asProduct4("title", "filePart", "articleId", "articleNumber")(PostFilePart)(PostFilePart.unapply(_).get)
+}

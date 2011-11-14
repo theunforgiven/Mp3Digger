@@ -1,7 +1,8 @@
 package com.Mp3Digger.Parsing
 
 import collection.immutable.Map
-import com.Mp3Digger.Repository.{PostFilePart, Post}
+import com.Mp3Digger.Repository.PostImports._
+import com.Mp3Digger.Repository.{Post, PostFilePart}
 
 class ArticleAssembler {
 

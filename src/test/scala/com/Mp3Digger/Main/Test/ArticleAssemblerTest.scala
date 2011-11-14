@@ -29,7 +29,7 @@ class ArticleAssemblerTest extends FunSuite with ShouldMatchers {
     article.totalFilePartCount should be(1)
     article.poster should be("poster")
     article.fileName should be("fName.ext")
-    article.postFileParts should have length (1)
+    article.postFileParts should have size (1)
 
     val postFilePart = article.postFileParts.head
     postFilePart.articleId should be(articleOrig.articleId)
