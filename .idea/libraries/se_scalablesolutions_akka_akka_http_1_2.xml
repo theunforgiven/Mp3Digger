@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/se.scalablesolutions.akka/akka-http/jars/akka-http-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/se.scalablesolutions.akka/akka-http/srcs/akka-http-1.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

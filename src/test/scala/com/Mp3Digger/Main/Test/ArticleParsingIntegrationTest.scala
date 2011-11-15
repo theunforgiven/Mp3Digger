@@ -4,32 +4,26 @@ import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.{BeforeAndAfterEach, FunSuite}
 import scalax.io.Line.Terminators
 import sjson.json._
-import DefaultProtocol._
 import JsonSerialization._
 import com.Mp3Digger.Parsing.ArticleImports._
 import dispatch.json.JsValue
-import com.Mp3Digger.Repository.PostImports._
 import java.io.File
 import scalax.io.{Output, LongTraversable, Resource}
 import com.Mp3Digger.Parsing.{ArticleDtoBase, ArticleAssembler, ArticleDto, ArticleParser}
 import java.lang.String
 import com.Mp3Digger.Repository.{MongoPostRepository, Post, PostFilePart}
-import com.mongodb.casbah.MongoConnection._
 import com.mongodb.casbah.MongoConnection
 import com.mongodb.casbah.Imports._
-import java.nio.file._
-import attribute.BasicFileAttributes
-import collection.mutable.ListBuffer
 import com.Mp3Digger.Service.PostService
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
 import java.util.Locale
 
 class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with BeforeAndAfterEach {
-	val projectRoot = "C:\\Users\\Nicholas\\Desktop\\Mp3Digger\\Core\\"
-	val testDataDirectory =  projectRoot + "TestData\\"
+	val projectRoot             = "C:\\Users\\Nicholas\\Desktop\\Mp3Digger\\Core\\"
+	val testDataDirectory       = projectRoot + "TestData\\"
 	val testDataOutputDirectory = projectRoot + "TestOutput\\"
-	val articleParser = new ArticleParser
+	val articleParser           = new ArticleParser
 
 	def partitionToList(articles: Traversable[ArticleDto], partitionFunction: (ArticleDto) => Boolean): (Traversable[ArticleDto], Traversable[ArticleDto]) = {
 		val partitionedArticles = articles.partition(partitionFunction)
@@ -86,23 +80,34 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
 		con(TestDbName)
 	}
 
-	class FileVisitor extends SimpleFileVisitor[Path] {
-		val listBuffer = new ListBuffer[String]()
+	//	class FileVisitor extends SimpleFileVisitor[Path] {
+	//		val listBuffer = new ListBuffer[String]()
+	//
+	//		override def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult =
+	//		{
+	//			if (file.toString.contains(".json"))
+	//			{
+	//				listBuffer.append(file.toString)
+	//			}
+	//			FileVisitResult.CONTINUE
+	//		}
+	//	}
+	//
+	def getTestDataFiles(): List[String] =
+	{
+		import scalax.file.{Path, PathMatcher}
+		val testDataFileMatcher = PathMatcher.IsFile && PathMatcher.GlobNameMatcher("*.json")
+		Path(testDataDirectory).descendants(filter = testDataFileMatcher)
+							   .map(_.toString())
+							   .toList
 
-		override def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult =
-		{
-			if (file.toString.contains(".json"))
-			{
-				listBuffer.append(file.toString)
-			}
-			FileVisitResult.CONTINUE
-		}
 	}
 
-	def getTestDataFiles(): List[String] = {
-		val fv = new FileVisitor()
-		Files.walkFileTree(Paths.get(testDataDirectory), fv)
-		fv.listBuffer.toList
+	ignore("Can get all test data files")
+	{
+		val dataFiles = getTestDataFiles()
+		dataFiles.size should be > 0
+		println(dataFiles.map(_.toString()))
 	}
 
 	def loadTestDataFileIntoMongo(articleAssembler: ArticleAssembler, db: MongoDB, testDataFile: String) {
@@ -134,11 +139,12 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
 		val db = createDbConnection
 		db("articleEntries").drop()
 		val articleAssembler = new ArticleAssembler()
-		val testDataFiles = getTestDataFiles()
-		for (testDataFile <- testDataFiles) {
-			log("Parsing file " + testDataFile)
-			loadTestDataFileIntoMongo(articleAssembler, db, testDataFile)
-		}
+		fail("Rewrite getTestDataFiles sans java NIO")
+		//		val testDataFiles = getTestDataFiles()
+		//		for (testDataFile <- testDataFiles) {
+		//			log("Parsing file " + testDataFile)
+		//			loadTestDataFileIntoMongo(articleAssembler, db, testDataFile)
+		//		}
 		//		fail()
 
 		//		saveToFile("assembledArticles.json", assembledArticles)
