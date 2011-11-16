@@ -4,7 +4,7 @@ scalaVersion := "2.9.1"
 
 version := "1.0.0"
 
-// seq(webSettings: _*)
+seq(webSettings: _*)
 
 // If using JRebel
 // jettyScanDirs := Nil
@@ -26,10 +26,11 @@ libraryDependencies ++= Seq(
   "net.liftweb" %% "lift-mapper" % "2.4-M5" % "compile",
   "net.liftweb" %% "lift-scalate" % "2.4-M5" % "compile",
   "org.fusesource.scalate" % "scalate-page" % "1.5.3",
+  "org.fusesource.scalate" % "scalate-wikitext" % "1.5.3",
   "com.mongodb.casbah" %% "casbah" % "2.1.5-1",
   "com.novus" %% "salat-core" % "0.0.8-SNAPSHOT",
   "com.novus" %% "salat" % "0.0.8-SNAPSHOT",
-  "org.mortbay.jetty" % "jetty" % "6.1.22" % "test",
+  "org.mortbay.jetty" % "jetty" % "6.1.22" % "container",
   "junit" % "junit" % "4.5" % "test",
   "ch.qos.logback" % "logback-classic" % "0.9.26",
   "org.scala-tools.testing" % "test-interface" % "0.5" % "test",

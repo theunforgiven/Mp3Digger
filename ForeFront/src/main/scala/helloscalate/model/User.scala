@@ -1,4 +1,4 @@
-
+package bootstrap.liftweb
 /*
  * Copyright 2010 WorldWide Conferencing, LLC
  *
