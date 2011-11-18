@@ -1,4 +1,4 @@
-name := "Mp3Digger"
+name := "ForeFront"
 
 scalaVersion := "2.9.1"
 
@@ -25,8 +25,9 @@ libraryDependencies ++= Seq(
   "net.liftweb" %% "lift-webkit" % "2.4-M5" % "compile",
   "net.liftweb" %% "lift-mapper" % "2.4-M5" % "compile",
   "net.liftweb" %% "lift-scalate" % "2.4-M5" % "compile",
-  "org.fusesource.scalate" % "scalate-page" % "1.5.3",
-  "org.fusesource.scalate" % "scalate-wikitext" % "1.5.3",
+  "org.fusesource.scalate" % "scalate-core" % "1.5.2",
+  "org.fusesource.scalate" % "scalate-page" % "1.5.2",
+  "org.fusesource.scalate" % "scalate-wikitext" % "1.5.2",
   "com.mongodb.casbah" %% "casbah" % "2.1.5-1",
   "com.novus" %% "salat-core" % "0.0.8-SNAPSHOT",
   "com.novus" %% "salat" % "0.0.8-SNAPSHOT",

@@ -67,9 +67,6 @@
     <orderEntry type="library" name="com.novus_salat_2.9.1_0.0.8-SNAPSHOT" level="project" />
     <orderEntry type="library" name="ch.qos.logback_logback-classic_0.9.26" level="project" />
     <orderEntry type="library" name="ch.qos.logback_logback-core_0.9.26" level="project" />
-    <orderEntry type="library" scope="TEST" name="org.mortbay.jetty_jetty_6.1.22" level="project" />
-    <orderEntry type="library" scope="TEST" name="org.mortbay.jetty_jetty-util_6.1.22" level="project" />
-    <orderEntry type="library" scope="TEST" name="org.mortbay.jetty_servlet-api_2.5-20081211" level="project" />
     <orderEntry type="library" scope="TEST" name="junit_junit_4.5" level="project" />
     <orderEntry type="library" scope="TEST" name="org.scala-tools.testing_test-interface_0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="org.mockito_mockito-all_1.9.0-rc1" level="project" />

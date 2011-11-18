@@ -15,13 +15,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2d2dcd-6e34-4297-97bf-c53fa981f521" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nicholas.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/beanstalk_beanstalk_client_1_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/beanstalk_beanstalk_client_1_4_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_classic_0_9_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_classic_0_9_26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_core_0_9_26.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_logback_core_0_9_26.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_jsuereth_scala_arm_scala_arm_2_9_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_jsuereth_scala_arm_scala_arm_2_9_1_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_core_2_9_1_0_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_core_2_9_1_0_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_file_2_9_1_0_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_scala_incubator_io_scala_io_file_2_9_1_0_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_protobuf_protobuf_java_2_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_protobuf_protobuf_java_2_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_h2database_h2_1_2_147.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_h2database_h2_1_2_147.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_commons_2_9_1_2_1_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_commons_2_9_1_2_1_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_core_2_9_1_2_1_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_core_2_9_1_2_1_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_gridfs_2_9_1_2_1_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_gridfs_2_9_1_2_1_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_query_2_9_1_2_1_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_mongodb_casbah_casbah_query_2_9_1_2_1_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_novus_salat_2_9_1_0_0_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_novus_salat_2_9_1_0_0_8_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_novus_salat_core_2_9_1_0_0_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_novus_salat_core_2_9_1_0_0_8_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_novus_salat_util_2_9_1_0_0_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_novus_salat_util_2_9_1_0_0_8_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/com_thoughtworks_paranamer_paranamer_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/com_thoughtworks_paranamer_paranamer_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_commons_codec_1_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_commons_fileupload_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_commons_fileupload_1_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_commons_io_2_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_net_commons_net_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_net_commons_net_3_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_pool_commons_pool_1_5_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_commons_pool_1_5_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_activation_activation_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_jsr250_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_jsr250_api_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_mail_mail_1_4_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_mail_mail_1_4_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_ws_rs_jsr311_api_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_ws_rs_jsr311_api_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/joda_time_joda_time_1_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/joda_time_joda_time_1_6_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_8_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_log4j_1_2_16.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_databinder_dispatch_json_2_9_0_0_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_databinder_dispatch_json_2_9_0_0_8_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_debasishg_redisclient_2_9_0_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_debasishg_redisclient_2_9_0_2_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_debasishg_sjson_2_9_0_0_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_debasishg_sjson_2_9_0_0_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_actor_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_actor_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_common_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_common_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_db_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_db_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_json_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_json_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_mapper_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_mapper_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_proto_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_proto_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_scalate_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_scalate_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_util_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_util_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_webkit_2_9_1_2_4_M5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/net_liftweb_lift_webkit_2_9_1_2_4_M5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/nu_validator_htmlparser_htmlparser_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/nu_validator_htmlparser_htmlparser_1_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_derby_derby_10_7_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_derby_derby_10_7_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_aspectwerkz_aspectwerkz_2_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_aspectwerkz_aspectwerkz_2_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_core_asl_1_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalamd_scalamd_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalamd_scalamd_1_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_core_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_core_1_5_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_page_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_page_1_5_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_util_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_util_1_5_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_wikitext_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_scalate_scalate_wikitext_1_5_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_wikitext_confluence_core_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_wikitext_confluence_core_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_wikitext_textile_core_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_wikitext_textile_core_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_fusesource_wikitext_wikitext_core_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_fusesource_wikitext_wikitext_core_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_guiceyfruit_guice_all_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_guiceyfruit_guice_all_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_jboss_netty_netty_3_2_5_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_jboss_netty_netty_3_2_5_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_9_0_rc1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_all_1_9_0_rc1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongo_java_driver_2_6_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongo_java_driver_2_6_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_multiverse_multiverse_alpha_0_6_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_multiverse_multiverse_alpha_0_6_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_objenesis_objenesis_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_objenesis_objenesis_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_compiler_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_compiler_2_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_library_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scala_library_2_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scalap_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_lang_scalap_2_9_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scala_tools_time_time_2_9_1_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scala_tools_time_time_2_9_1_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scalaj_scalaj_collection_2_9_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scalaj_scalaj_collection_2_9_1_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scalatest_scalatest_2_9_1_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scalatest_scalatest_2_9_1_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_scalaz_scalaz_2_9_1_6_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_scalaz_scalaz_2_9_1_6_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_api_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_api_1_6_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_log4j12_1_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_log4j12_1_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_yaml_snakeyaml_1_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_yaml_snakeyaml_1_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rhino_js_1_7R2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rhino_js_1_7R2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_actor_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_actor_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_actor_tests_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_actor_tests_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_beanstalk_mailbox_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_beanstalk_mailbox_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_file_mailbox_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_file_mailbox_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_http_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_http_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_mailboxes_common_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_mailboxes_common_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_redis_mailbox_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_redis_mailbox_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_remote_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_remote_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_slf4j_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_slf4j_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_stm_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_stm_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_testkit_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_testkit_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_typed_actor_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/se_scalablesolutions_akka_akka_typed_actor_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/voldemort_store_compress_h2_lzf_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/voldemort_store_compress_h2_lzf_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/build.sbt" afterPath="$PROJECT_DIR$/Core/build.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ForeFront/build.sbt" afterPath="$PROJECT_DIR$/ForeFront/build.sbt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala" afterPath="$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ForeFront/src/main/scala/helloscalate/model/User.scala" afterPath="$PROJECT_DIR$/ForeFront/src/main/scala/helloscalate/model/User.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/scalate/layouts/default.ssp" afterPath="$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/scalate/layouts/default.ssp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
     </list>
     <ignored path="Mp3Digger.iws" />
@@ -81,10 +166,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala">
+      <file leaf-file-name="plugins.sbt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="30" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+            <state line="4" column="59" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Build.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/Build.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="7" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,16 +187,43 @@
       <file leaf-file-name="build.sbt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ForeFront/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="25" selection-start="714" selection-end="714" vertical-scroll-proportion="0.60747665">
+            <state line="29" column="56" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5843829">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="Boot.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="31" column="6" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scaml.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/_scalate/src/index.scaml.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/index.scaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="26" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.ssp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/scalate/layouts/default.ssp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="4" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-1.32">
               <folding />
             </state>
           </provider>
@@ -122,10 +243,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/ForeFront/src/main/scala/helloscalate/model/User.scala" />
-        <option value="$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/Core/build.sbt" />
+        <option value="$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/index.scaml" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/ForeFront/build.sbt" />
+        <option value="$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala" />
+        <option value="$PROJECT_DIR$/ForeFront/src/main/webapp/index.scaml" />
+        <option value="$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/scalate/layouts/default.ssp" />
       </list>
     </option>
   </component>
@@ -161,9 +286,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,22 +303,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
+              <option name="myItemId" value="ForeFront" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mp3Digger" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Build.scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -203,6 +314,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ForeFront" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,7 +588,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -473,23 +596,24 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.112433866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.112432435" sideWeight="0.9939394" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Share with Pastie" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24658519" sideWeight="0.88756615" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24635416" sideWeight="0.8875676" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Share with Pastie" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -497,7 +621,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -547,73 +670,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/index.scaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/main/scala/com/Mp3Digger/Actor/FileActor.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="29" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/scalate/layouts/default.ssp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="-21.76" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="67" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ForeFront/src/main/scala/helloscalate/model/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/_scalate/src/index.scaml.scala">
+    <entry file="file://$PROJECT_DIR$/Core/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/derby.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/net.liftweb/lift-scalate_2.9.1/jars/lift-scalate_2.9.1-2.4-M5.jar!/net/liftweb/scalate/ScalateView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="45" selection-end="45" vertical-scroll-proportion="0.024834437">
-          <folding />
-        </state>
+        <state line="15" column="45" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.30729833" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala">
+    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="59" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/Build.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="21" selection-end="21" vertical-scroll-proportion="0.046728972">
+        <state line="2" column="7" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/scala/bootstrap/liftweb/Boot.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="6" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/_scalate/src/index.scaml.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/index.scaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="26" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/scalate/layouts/default.ssp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="4" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-1.32">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ForeFront/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="714" selection-end="714" vertical-scroll-proportion="0.60747665">
+        <state line="29" column="56" selection-start="913" selection-end="913" vertical-scroll-proportion="0.5843829">
           <folding />
         </state>
       </provider>

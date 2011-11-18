@@ -1,2 +1,4 @@
 target/
 TestData/**.json
+derby.log
+/lift_example

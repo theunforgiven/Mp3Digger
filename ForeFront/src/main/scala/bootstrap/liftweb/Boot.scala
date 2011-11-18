@@ -29,14 +29,14 @@ class Boot {
     // based on the http request
     LiftRules.localeCalculator = r => User.currentUser.map(_.locale.isAsLocale).openOr(LiftRules.defaultLocaleCalculator(r))
 
-    // Build SiteMap
+    /* Build SiteMap
     ///
         val entries = Menu(Loc("Home", List("index"), "Home")) ::
         Menu(Loc("Request Details", List("request"), "Request Details")) ::
         User.sitemap
 
         LiftRules.setSiteMap(SiteMap(entries:_*))
-    //*/
+    */
   }
 }
 
