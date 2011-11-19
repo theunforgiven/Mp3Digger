@@ -23,7 +23,6 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 // Customize any further dependencies as desired
 libraryDependencies ++= Seq(
   "net.liftweb" %% "lift-webkit" % "2.4-M5" % "compile",
-  "net.liftweb" %% "lift-mapper" % "2.4-M5" % "compile",
   "net.liftweb" %% "lift-scalate" % "2.4-M5" % "compile",
   "org.fusesource.scalate" % "scalate-core" % "1.5.2",
   "org.fusesource.scalate" % "scalate-page" % "1.5.2",

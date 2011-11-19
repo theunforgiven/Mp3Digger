@@ -10,4 +10,6 @@ trait PostRepository {
 	def findByPosterAndFileName(fileName: String, poster: String): Option[Post]
 
 	def appendFilePartsToPost(postId: String, fileParts: List[PostFilePart])
+
+  def findSomeShit(): scala.List[Post]
 }

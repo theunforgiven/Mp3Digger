@@ -1,0 +1,11 @@
+#import(com.ForeFront.snippet._)
+
+<h1>Hello</h1>
+
+<p>
+    Welcome to this Lift Scalate demo
+</p>
+<p>
+  <h1>Files In Database</h1>
+  <%= com.ForeFront.snippet.ArticleUtil.viewArticles() %>
+</p>

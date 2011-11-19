@@ -1,4 +1,6 @@
 target/
-TestData/**.json
+out/
+Core/TestData/**.json
+Core/TestData/**.bin
 derby.log
 /lift_example

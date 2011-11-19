@@ -68,4 +68,12 @@ class MongoPostRepositoryTest extends FunSuite with BeforeAndAfterEach with Befo
 		val expectedPostFileParts = postFiles ++ postFilesToAppend
 		retrievedPost.get.postFileParts should be(expectedPostFileParts)
 	}
+
+  test("Can find some shit") {
+    val postFiles = List(new PostFilePart("Title", 1, "articleId", 4), new PostFilePart("Title", 2, "articleId2", 4))
+		val post = new Post(None, "Poster", "fName.ext", 4, postFiles)
+		val postId = repository.save(post).id.get
+    val someShit = repository.findSomeShit()
+    someShit should not be('empty)
+  }
 }

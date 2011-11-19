@@ -10,7 +10,7 @@ import collection.immutable.List
 
 
 class MongoPostRepository(db: MongoDB) extends PostRepository {
-	private val articleEntries = db("articleEntries")
+  private val articleEntries = db("articleEntries")
 	articleEntries.ensureIndex(MongoDBObject("fileName" -> 1, "poster" -> 1), "fileNamePoster_index", true)
 
 	def findByPosterAndFileName(fileName: String, poster: String): Option[Post] = {
@@ -59,4 +59,11 @@ class MongoPostRepository(db: MongoDB) extends PostRepository {
 		val query = MongoDBObject("_id" -> new ObjectId(postId))
 		articleEntries.update(query, updateQuery)
 	}
+
+  def findSomeShit(): scala.List[Post] = {
+    articleEntries.find()
+                  .limit(100)
+                  .map( db2question )
+                  .toList
+  }
 }
