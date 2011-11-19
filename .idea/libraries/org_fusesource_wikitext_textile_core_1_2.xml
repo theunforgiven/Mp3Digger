@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/org.fusesource.wikitext/textile-core/bundles/textile-core-1.2.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.fusesource.wikitext/textile-core/docs/textile-core-1.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.fusesource.wikitext/textile-core/srcs/textile-core-1.2-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

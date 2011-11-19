@@ -2,7 +2,6 @@
   <library name="beanstalk_beanstalk_client_1.4.5">
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/beanstalk/beanstalk_client/jars/beanstalk_client-1.4.5.jar!/" />
-      <root url="jar://$USER_HOME$/.ivy2/cache/beanstalk/beanstalk_client/jars/beanstalk_client-1.4.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

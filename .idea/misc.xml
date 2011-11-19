@@ -3,19 +3,6 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="FacetAutodetectingManager">
-    <autodetection-disabled>
-      <facet-type id="web">
-        <modules>
-          <module name="ForeFront">
-            <files>
-              <file url="file://$PROJECT_DIR$/ForeFront/src/main/webapp/WEB-INF/web.xml" />
-            </files>
-          </module>
-        </modules>
-      </facet-type>
-    </autodetection-disabled>
-  </component>
   <component name="IdProvider" IDEtalkID="6903809289EB528D61219C909B296311" />
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
@@ -35,8 +22,8 @@
     <option name="OPEN_IN_BROWSER" value="true" />
   </component>
   <component name="NullableNotNullManager">
-    <option value="org.jetbrains.annotations.Nullable" name="myDefaultNullable" />
-    <option value="org.jetbrains.annotations.NotNull" name="myDefaultNotNull" />
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="org.jetbrains.annotations.NotNull" />
     <option name="myNullables">
       <value>
         <list size="0" />
@@ -45,9 +32,9 @@
     <option name="myNotNulls">
       <value>
         <list size="3">
-          <item itemvalue="org.jetbrains.annotations.NotNull" class="java.lang.String" index="0" />
-          <item itemvalue="javax.annotation.Nonnull" class="java.lang.String" index="1" />
-          <item itemvalue="edu.umd.cs.findbugs.annotations.NonNull" class="java.lang.String" index="2" />
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
         </list>
       </value>
     </option>
@@ -58,41 +45,7 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component mode="0" regex="(19|20)\d\d([- /.])(0[1-9]|1[012])\2(0[1-9]|[12][0-9]|3[01])" flags="0" text="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" name="RegexUtilComponent" />
-  <component name="VssConfiguration">
-    <option value="" name="CLIENT_PATH" />
-    <option value="" name="SRCSAFEINI_PATH" />
-    <option value="" name="USER_NAME" />
-    <option value="" name="PWD" />
-    <CheckoutOptions>
-      <option value="" name="COMMENT" />
-      <option value="false" name="DO_NOT_GET_LATEST_VERSION" />
-      <option value="false" name="REPLACE_WRITABLE" />
-      <option value="false" name="RECURSIVE" />
-    </CheckoutOptions>
-    <CheckinOptions>
-      <option value="" name="COMMENT" />
-      <option value="false" name="KEEP_CHECKED_OUT" />
-      <option value="false" name="RECURSIVE" />
-    </CheckinOptions>
-    <AddOptions>
-      <option value="false" name="STORE_ONLY_LATEST_VERSION" />
-      <option value="false" name="CHECK_OUT_IMMEDIATELY" />
-    </AddOptions>
-    <UndocheckoutOptions>
-      <option value="false" name="MAKE_WRITABLE" />
-      <option value="2" name="REPLACE_LOCAL_COPY" />
-      <option value="false" name="RECURSIVE" />
-    </UndocheckoutOptions>
-    <GetOptions>
-      <option value="0" name="REPLACE_WRITABLE" />
-      <option value="false" name="MAKE_WRITABLE" />
-      <option value="false" name="ANSWER_NEGATIVELY" />
-      <option value="false" name="ANSWER_POSITIVELY" />
-      <option value="false" name="RECURSIVE" />
-      <option name="VERSION" />
-    </GetOptions>
-  </component>
+  <component name="RegexUtilComponent" text="1900-01-01 2007/08/13 1900.01.01 1900 01 01 1900-01.01 1900 13 01 1900 02 31" flags="0" regex="(19|20)\d\d([- /.])(0[1-9]|1[012])\2(0[1-9]|[12][0-9]|3[01])" mode="0" />
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
 

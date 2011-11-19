@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/nu.validator.htmlparser/htmlparser/jars/htmlparser-1.2.1.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/nu.validator.htmlparser/htmlparser/docs/htmlparser-1.2.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/nu.validator.htmlparser/htmlparser/srcs/htmlparser-1.2.1-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

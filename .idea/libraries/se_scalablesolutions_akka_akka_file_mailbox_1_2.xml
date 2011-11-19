@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.ivy2/cache/se.scalablesolutions.akka/akka-file-mailbox/jars/akka-file-mailbox-1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/se.scalablesolutions.akka/akka-file-mailbox/srcs/akka-file-mailbox-1.2-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
