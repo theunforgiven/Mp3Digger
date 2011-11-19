@@ -66,6 +66,11 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
     //		println(assembledArticles.size)
   }
 
+  ignore("Can get all test data files") {
+    val dataFiles = getTestDataFiles()
+    dataFiles.size should be > 0
+    println(dataFiles.map(_.toString()))
+  }
   def saveToMongo(db: MongoDB, posts: List[Post]) {
     val repository = new MongoPostRepository(db)
     val service = new PostService(repository)
@@ -80,18 +85,13 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
 
   def getTestDataFiles(): List[String] = {
     import scalax.file.{Path, PathMatcher}
-    val testDataFileMatcher = PathMatcher.IsFile && PathMatcher.GlobNameMatcher("*.json")
+    val testDataFileMatcher = PathMatcher.IsFile && PathMatcher.GlobNameMatcher("*.bin")
     Path(testDataDirectory).descendants(filter = testDataFileMatcher)
       .map(_.path)
       .toList
 
   }
 
-  ignore("Can get all test data files") {
-    val dataFiles = getTestDataFiles()
-    dataFiles.size should be > 0
-    println(dataFiles.map(_.toString()))
-  }
 
   def write(o: AnyRef, file: String) {
     val output = new ObjectOutputStream(new FileOutputStream(file))
@@ -99,8 +99,8 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
     output.close()
   }
 
-  def read[T]() = {
-    val input = new ObjectInputStream(new FileInputStream(testDataDirectory + "Batch.10097938.10197937.bin"))
+  def read[T](fileName: String) = {
+    val input = new ObjectInputStream(new FileInputStream(fileName))
     val obj = input.readObject()
     input.close()
     obj.asInstanceOf[T]
@@ -108,22 +108,15 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
 
   def loadTestDataFileIntoMongo(articleAssembler: ArticleAssembler, db: MongoDB, testDataFile: String) {
 
-    val testData = readTestDataFile(testDataFile)
+    val testData = read[List[ArticleDtoBase]](testDataFile)
     log("Read file " + testDataFile)
-    val jsValues = testData.map(x => JsValue.fromString(x))
-    log("parsed js values")
-    val parsedJson = jsValues.map((x) => fromjson[ArticleDtoBase](x))
-    log("Converted file to articlebase objects")
-  val newFile: String = testDataFile.replace(".json", ".bin")
-    write(parsedJson.toList, newFile)
-    log("Saved converted objects to file: " + newFile)
-    //    val parsedArticles = parsedJson.map((x) => articleParser.reparse(x)).toList
-    //		log("Parsed file " + testDataFile)
-    //		val (_, articlesWithFileNames) = partitionToList(parsedArticles, _.fileName.isEmpty)
-    //		val assembledArticles = articleAssembler.assembleArticles(articlesWithFileNames.toList)
-    //		log("Assembled file " + testDataFile)
-    //		saveToMongo(db, assembledArticles)
-    //		log("Saved to mongo file" + testDataFile)
+    val parsedArticles = testData.map((x) => articleParser.reparse(x)).toList
+    log("Parsed file " + testDataFile)
+    val (_, articlesWithFileNames) = partitionToList(parsedArticles, _.fileName.isEmpty)
+    val assembledArticles = articleAssembler.assembleArticles(articlesWithFileNames.toList)
+    log("Assembled file " + testDataFile)
+    saveToMongo(db, assembledArticles)
+    log("Saved to mongo file" + testDataFile)
   }
 
   def log(message: String) {
@@ -137,39 +130,6 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
     log(message)
 
   }
-  test("Can parse into mongo") {
-    val db = createDbConnection
-    db("articleEntries").drop()
-    val articleAssembler = new ArticleAssembler()
-    val testDataFiles = getTestDataFiles()
-    for (testDataFile <- testDataFiles) {
-      log("Parsing file " + testDataFile)
-      loadTestDataFileIntoMongo(articleAssembler, db, testDataFile)
-    }
-  }
-
-  def toJsonString[T](post: T): String = {
-    try {
-      new String(sjson.json.Serializer.SJSON.out(post.asInstanceOf[AnyRef]), "UTF-8")
-    } catch {
-      case e: Exception => {
-        println(e.getStackTrace)
-        throw e
-      }
-    }
-  }
-
-  def jsonStringToObject[T](json: String)(implicit m: Manifest[T]): T = {
-    try {
-      sjson.json.Serializer.SJSON.in(json.getBytes("UTF-8"), m.erasure.getName).asInstanceOf[T]
-    } catch {
-      case e: Exception => {
-        println(e.getStackTrace)
-        throw e
-      }
-    }
-  }
-
   ignore("Can json a post file part") {
     val postFilePart: PostFilePart = new PostFilePart("title", 1, "articleid", 12345)
     val asJson = toJsonString(postFilePart)
@@ -196,6 +156,44 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
     asJson.size should be > 0
     jsonStringToObject[Post](asJson) should be(post)
   }
+
+  test("Can parse into mongo") {
+    val db = createDbConnection
+    db("articleEntries").drop()
+    val articleAssembler = new ArticleAssembler()
+    val testDataFiles = getTestDataFiles()
+    val testDataFileCount = testDataFiles.size
+    var ofFile = 1
+    for (testDataFile <- testDataFiles) {
+      log("(" + ofFile + "/" + testDataFileCount + ") Parsing file " + testDataFile)
+      loadTestDataFileIntoMongo(articleAssembler, db, testDataFile)
+      log("(" + ofFile + "/" + testDataFileCount + ") Parsed file " + testDataFile)
+      ofFile += 1
+    }
+  }
+
+  def toJsonString[T](post: T): String = {
+    try {
+      new String(sjson.json.Serializer.SJSON.out(post.asInstanceOf[AnyRef]), "UTF-8")
+    } catch {
+      case e: Exception => {
+        println(e.getStackTrace)
+        throw e
+      }
+    }
+  }
+
+  def jsonStringToObject[T](json: String)(implicit m: Manifest[T]): T = {
+    try {
+      sjson.json.Serializer.SJSON.in(json.getBytes("UTF-8"), m.erasure.getName).asInstanceOf[T]
+    } catch {
+      case e: Exception => {
+        println(e.getStackTrace)
+        throw e
+      }
+    }
+  }
+
 
   def saveToFile(fileName: String, articles: List[Post]) {
     val file = new File(fileName)

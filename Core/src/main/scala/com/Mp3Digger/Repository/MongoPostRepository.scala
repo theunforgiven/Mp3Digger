@@ -60,9 +60,10 @@ class MongoPostRepository(db: MongoDB) extends PostRepository {
 		articleEntries.update(query, updateQuery)
 	}
 
-  def findSomeShit(): scala.List[Post] = {
+  def findSomeShit(skip: Int = 0,  limit: Int = 100): scala.List[Post] = {
     articleEntries.find()
-                  .limit(100)
+                  .skip(skip)
+                  .limit(limit)
                   .map( db2question )
                   .toList
   }

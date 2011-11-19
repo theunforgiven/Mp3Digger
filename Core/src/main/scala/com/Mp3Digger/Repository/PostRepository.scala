@@ -11,5 +11,5 @@ trait PostRepository {
 
 	def appendFilePartsToPost(postId: String, fileParts: List[PostFilePart])
 
-  def findSomeShit(): scala.List[Post]
+  def findSomeShit(skip: Int = 0,  limit: Int = 100): scala.List[Post]
 }

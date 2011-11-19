@@ -22,17 +22,9 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 // Customize any further dependencies as desired
 libraryDependencies ++= Seq(
-  "net.liftweb" %% "lift-webkit" % "2.4-M5" % "compile",
-  "net.liftweb" %% "lift-scalate" % "2.4-M5" % "compile",
-  "org.fusesource.scalate" % "scalate-core" % "1.5.2",
-  "org.fusesource.scalate" % "scalate-page" % "1.5.2",
-  "org.fusesource.scalate" % "scalate-wikitext" % "1.5.2",
   "com.mongodb.casbah" %% "casbah" % "2.1.5-1",
-  "com.novus" %% "salat-core" % "0.0.8-SNAPSHOT",
-  "com.novus" %% "salat" % "0.0.8-SNAPSHOT",
-  "org.mortbay.jetty" % "jetty" % "6.1.22" % "container",
-  "junit" % "junit" % "4.5" % "test",
-  "ch.qos.logback" % "logback-classic" % "0.9.26",
-  "org.scala-tools.testing" % "test-interface" % "0.5" % "test",
-  "org.mockito" % "mockito-all" % "1.9.0-rc1" % "test",
+  "org.scalatra" %% "scalatra" % "2.0.1",
+  "org.scalatra" %% "scalatra-scalate" % "2.0.1",
+  "org.eclipse.jetty" % "jetty-webapp" % "7.4.5.v20110725" % "container",
+  "javax.servlet" % "servlet-api" % "2.5" % "provided",
   "org.scalatest" %% "scalatest" % "1.6.1" % "test")

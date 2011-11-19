@@ -1,11 +1,17 @@
-#import(com.ForeFront.snippet._)
-
+<%@ val currentOffset: Int = 0 %>
+<%@ var files: String %>
 <h1>Hello</h1>
 
 <p>
     Welcome to this Lift Scalate demo
 </p>
 <p>
-  <h1>Files In Database</h1>
-  <%= com.ForeFront.snippet.ArticleUtil.viewArticles() %>
+<h1>Files In Database</h1>
+#if (currentOffset > 0)
+    <a href="/articles/<%= (currentOffset - 100).toString %>">Previous Page</a>
+    <a href="/articles/<%= (currentOffset + 100).toString %>">Next Page</a>
+#else
+    <a href="/articles/100">Next Page</a>
+#end
+<%= unescape(files) %>
 </p>
