@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="ForeFront:War Exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ForeFront_War_Exploded</output-path>
+  <artifact type="exploded-war" name="ForeFront:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ForeFront_Web_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="ForeFront/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -63,28 +63,10 @@
           <element id="library" level="project" name="com.github.scala-incubator.io_scala-io-core_2.9.1_0.2.0" />
           <element id="library" level="project" name="com.github.jsuereth.scala-arm_scala-arm_2.9.1_0.3" />
           <element id="library" level="project" name="com.github.scala-incubator.io_scala-io-file_2.9.1_0.2.0" />
-          <element id="library" level="project" name="net.liftweb_lift-webkit_2.9.1_2.4-M5" />
-          <element id="library" level="project" name="commons-fileupload_commons-fileupload_1.2.2" />
-          <element id="library" level="project" name="net.liftweb_lift-util_2.9.1_2.4-M5" />
-          <element id="library" level="project" name="javax.mail_mail_1.4.4" />
-          <element id="library" level="project" name="javax.activation_activation_1.1" />
-          <element id="library" level="project" name="nu.validator.htmlparser_htmlparser_1.2.1" />
-          <element id="library" level="project" name="net.liftweb_lift-actor_2.9.1_2.4-M5" />
-          <element id="library" level="project" name="net.liftweb_lift-common_2.9.1_2.4-M5" />
-          <element id="library" level="project" name="net.liftweb_lift-json_2.9.1_2.4-M5" />
-          <element id="library" level="project" name="com.thoughtworks.paranamer_paranamer_2.3" />
-          <element id="library" level="project" name="net.liftweb_lift-scalate_2.9.1_2.4-M5" />
+          <element id="library" level="project" name="org.scalatra_scalatra_2.9.1_2.0.1" />
+          <element id="library" level="project" name="org.scalatra_scalatra-scalate_2.9.1_2.0.1" />
           <element id="library" level="project" name="org.fusesource.scalate_scalate-core_1.5.2" />
           <element id="library" level="project" name="org.fusesource.scalate_scalate-util_1.5.2" />
-          <element id="library" level="project" name="org.fusesource.scalate_scalate-page_1.5.2" />
-          <element id="library" level="project" name="org.fusesource.scalate_scalate-wikitext_1.5.2" />
-          <element id="library" level="project" name="org.fusesource.wikitext_confluence-core_1.2" />
-          <element id="library" level="project" name="org.fusesource.wikitext_wikitext-core_1.2" />
-          <element id="library" level="project" name="org.fusesource.wikitext_textile-core_1.2" />
-          <element id="library" level="project" name="org.yaml_snakeyaml_1.7" />
-          <element id="library" level="project" name="org.fusesource.scalamd_scalamd_1.5" />
-          <element id="library" level="project" name="ch.qos.logback_logback-classic_0.9.26" />
-          <element id="library" level="project" name="ch.qos.logback_logback-core_0.9.26" />
         </element>
       </element>
     </root>
