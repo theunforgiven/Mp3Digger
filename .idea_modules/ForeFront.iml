@@ -97,6 +97,9 @@
     <orderEntry type="library" name="org.scalatra_scalatra-scalate_2.9.1_2.0.1" level="project" />
     <orderEntry type="library" name="org.fusesource.scalate_scalate-core_1.5.2" level="project" />
     <orderEntry type="library" name="org.fusesource.scalate_scalate-util_1.5.2" level="project" />
+    <orderEntry type="library" name="org.slf4j_log4j-over-slf4j_1.5.8" level="project" />
+    <orderEntry type="library" name="ch.qos.logback_logback-core_0.9.24" level="project" />
+    <orderEntry type="library" name="ch.qos.logback_logback-classic_0.9.24" level="project" />
     <orderEntry type="library" scope="TEST" name="org.scalatest_scalatest_2.9.1_1.6.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="javax.servlet_servlet-api_2.5" level="project" />
     <orderEntry type="module" module-name="Core" exported="" />

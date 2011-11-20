@@ -3,8 +3,11 @@ package com.ForeFront
 import org.scalatra._
 import scalate.ScalateSupport
 import Service.ArticleService
+import ch.qos.logback._
+import org.slf4j._
 
 class ForeFrontServlet extends ScalatraServlet with ScalateSupport {
+  def logger = LoggerFactory.getLogger("ForeFrontServlet")
   val articleService = new ArticleService()
   get("/") {
     contentType = "text/html"

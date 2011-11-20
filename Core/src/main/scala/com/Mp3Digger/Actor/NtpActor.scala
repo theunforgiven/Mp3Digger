@@ -35,13 +35,12 @@ class NtpActor(nntpClientFactory: NNTPClientFactory) extends Actor {
     (groupInfo.getFirstArticleLong, groupInfo.getLastArticleLong)
   }
 
-  def getArticleBatch(batch: Batch, newsGroup: String): List[ArticleDtoBase] = {
+  def getArticleBatch(batch: Batch, newsGroup: String): List[ArticleDto] = {
     ntpClient.selectNewsgroup(newsGroup)
     ntpClient.iterateArticleInfo(batch.start, batch.end)
-             .map(articleParser.baseParse)
-             .toList
+      .map(articleParser.parse)
+      .toList
   }
-
 
 
   protected def receive = {
