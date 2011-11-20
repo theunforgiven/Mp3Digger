@@ -29,6 +29,10 @@ libraryDependencies ++= Seq(
   "com.novus" %% "salat-core" % "0.0.8-SNAPSHOT",
   "com.novus" %% "salat" % "0.0.8-SNAPSHOT",
   "org.scalaz" %% "scalaz" % "6.0.3",
+  "org.slf4j" % "log4j-over-slf4j" % "1.5.8" intransitive(),
+  "org.slf4j" % "slf4j-api" % "1.5.8" intransitive(),
+  "ch.qos.logback" % "logback-core" % "0.9.24" % "compile", //LGPL 2.1
+  "ch.qos.logback" % "logback-classic" % "0.9.24" % "compile", //LGPL 2.1
   "com.github.scala-incubator.io" %% "scala-io-core" % "0.2.0",
   "com.github.scala-incubator.io" %% "scala-io-file" % "0.2.0",
   "org.scala-tools.testing" % "test-interface" % "0.5" % "test",

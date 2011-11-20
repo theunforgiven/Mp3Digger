@@ -28,11 +28,11 @@ object Mp3Usenet {
         // this latch is only plumbing to know when the calculation is completed
     val latch = new CountDownLatch(1)
 
-    val ntpPool = actorOf(new NtpPool(8, new NNTPClientFactory("localhost", "x", "x"))).start()
-    val filePool = actorOf(new FilePool(8)).start()
+    val ntpPool = actorOf(new NtpPool(4, new NNTPClientFactory("news.giganews.com", "x", "x"))).start()
+    val filePool = actorOf(new FilePool(4)).start()
 
     // create the master
-    val master = actorOf(new Director(8, 100000, ntpPool, filePool, latch)).start()
+    val master = actorOf(new Director(4, 100000, ntpPool, filePool, latch)).start()
 
     // start the calculation
     master ! FetchArticles(0, "alt.binaries.music.mp3")
