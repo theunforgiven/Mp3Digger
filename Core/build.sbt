@@ -22,17 +22,17 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 // Customize any further dependencies as desired
 libraryDependencies ++= Seq(
-  "commons-net" % "commons-net" % "3.0.1",
-  "se.scalablesolutions.akka" % "akka-actor" % "1.2",
-  "se.scalablesolutions.akka" % "akka" % "1.2",
-  "com.mongodb.casbah" %% "casbah" % "2.1.5-1",
-  "com.novus" %% "salat-core" % "0.0.8-SNAPSHOT",
-  "com.novus" %% "salat" % "0.0.8-SNAPSHOT",
+  "commons-net" % "commons-net" % "3.0.1" intransitive(),
+  "se.scalablesolutions.akka" % "akka-actor" % "1.2" intransitive(),
+  "se.scalablesolutions.akka" % "akka" % "1.2" intransitive(),
+  "com.mongodb.casbah" %% "casbah" % "2.1.5-1" intransitive(),
+  "com.novus" %% "salat-core" % "0.0.8-SNAPSHOT" intransitive(),
+  "com.novus" %% "salat" % "0.0.8-SNAPSHOT" intransitive(),
   "org.scalaz" %% "scalaz" % "6.0.3",
-  "org.slf4j" % "log4j-over-slf4j" % "1.5.8" intransitive(),
-  "org.slf4j" % "slf4j-api" % "1.5.8" intransitive(),
-  "ch.qos.logback" % "logback-core" % "0.9.24" % "compile", //LGPL 2.1
-  "ch.qos.logback" % "logback-classic" % "0.9.24" % "compile", //LGPL 2.1
+  "ch.qos.logback" % "logback-classic" % "1.0.0",
+  "org.slf4j" % "slf4j-api" % "1.6.4",
+  "org.slf4j" % "log4j-over-slf4j" % "1.6.4",
+  "junit" % "junit" % "4.8.1" intransitive(),
   "com.github.scala-incubator.io" %% "scala-io-core" % "0.2.0",
   "com.github.scala-incubator.io" %% "scala-io-file" % "0.2.0",
   "org.scala-tools.testing" % "test-interface" % "0.5" % "test",

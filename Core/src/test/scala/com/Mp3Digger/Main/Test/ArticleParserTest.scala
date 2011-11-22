@@ -38,9 +38,9 @@ class ArticleParserTest extends FunSuite with ShouldMatchers with BeforeAndAfter
     articleDto.articlePoster should equal(articlePoster)
     articleDto.articleSubject should equal(articleTitle)
     articleDto.fileName should equal("Complete Top40 1981 -WWW.UNITED-FORUMS.CO.UK-.part09.rar")
-    articleDto.filePart should equal(10)
-    articleDto.totalFileParts should equal(36)
-    articleDto.postPart should equal(143)
-    articleDto.totalPostParts should equal(211)
+    articleDto.filePart should equal(143)
+    articleDto.totalFileParts should equal(211)
+    articleDto.postPart should equal(10)
+    articleDto.totalPostParts should equal(36)
   }
 }

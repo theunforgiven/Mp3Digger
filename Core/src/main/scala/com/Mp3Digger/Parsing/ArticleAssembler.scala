@@ -7,8 +7,8 @@ import com.Mp3Digger.Repository.{Post, PostFilePart}
 class ArticleAssembler {
 
   def parseSinglePartPost(articleDto: ArticleDto): Post =  {
-    val filePart = new PostFilePart(articleDto.articleSubject, articleDto.filePart, articleDto.articleId, articleDto.articleNumber)
-    new Post(None, articleDto.articlePoster, articleDto.fileName, articleDto.totalFileParts, List(filePart))
+    val filePart = new PostFilePart(articleDto.filePart, articleDto.articleId, articleDto.articleNumber)
+    new Post(None, articleDto.articlePoster, articleDto.fileName, articleDto.totalFileParts, articleDto.articleSubject,List(filePart))
   }
 
   def parseSinglePartPosts(articles: Map[String, List[ArticleDto]]) : List[Post] = {
@@ -20,7 +20,8 @@ class ArticleAssembler {
     val fileList = postParts.map((postPart) => {
       articleDtoToPostFilePart(postPart)
     }).toList
-    new Post(None, poster, fileName, totalPostCount, fileList)
+    val subject = postParts.map(x => x.articleSubject).headOption.getOrElse("Unknown subject")
+    new Post(None, poster, fileName, totalPostCount, subject, fileList)
   }
 
   def parseMultiPartPosts(articles: Map[String, List[ArticleDto]]) : List[Post] = {
@@ -31,7 +32,7 @@ class ArticleAssembler {
   }
 
   def articleDtoToPostFilePart(articleDto: ArticleDto) : PostFilePart = {
-    new PostFilePart(articleDto.articleSubject, articleDto.filePart, articleDto.articleId, articleDto.articleNumber)
+    new PostFilePart(articleDto.filePart, articleDto.articleId, articleDto.articleNumber)
   }
 
   def assembleArticles(articles: List[ArticleDto]): List[Post] = {

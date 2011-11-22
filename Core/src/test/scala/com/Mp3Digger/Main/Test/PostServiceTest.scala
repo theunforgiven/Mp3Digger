@@ -28,12 +28,12 @@ class PostServiceTest extends FunSuite with BeforeAndAfterEach with BeforeAndAft
 		service = new PostService(repository)
 	}
 
-	def createFilePost(poster: String = "poster", fileName: String = "fileName.ext", partCount: Int = 10, partCountStart: Int = 1): Post = {
+	def createFilePost(poster: String = "poster", subject: String = "Post Subject", fileName: String = "fileName.ext", partCount: Int = 10, partCountStart: Int = 1): Post = {
 		val postBuffer = ListBuffer[PostFilePart]()
 		for (part <- partCountStart.until(partCount + partCountStart)) {
-			postBuffer.append(PostFilePart("title", part, "articleId", part))
+			postBuffer.append(PostFilePart(part, "articleId", part))
 		}
-		new Post(None, poster, fileName, partCount, postBuffer.toList)
+		new Post(None, poster, fileName, partCount, subject, postBuffer.toList)
 	}
 
 	test("Can save a post")

@@ -8,5 +8,6 @@ case class FetchArticles(start: Long, newsGroup: String) extends MyMessage
 
 case class FetchLastArticleNumber(newsGroup: String) extends MyMessage
 case class FetchArticleBatch(batch: Batch, newsGroup: String) extends MyMessage
+case class FetchNewsgroupList() extends MyMessage
 
 case class SaveArticleBatch(batch: Batch, articles: List[ArticleDto])

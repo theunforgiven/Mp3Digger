@@ -6,12 +6,7 @@ import collection.immutable.List
 
 class ArticleService {
   def findSubject(post: Post): String = {
-    post.postFileParts.headOption match {
-      case (Some(x: PostFilePart)) => {
-        (x.title)
-      }
-      case None => ""
-    }
+    post.subject
   }
 
   def viewArticles(skip: Int,  limit: Int): NodeSeq = {

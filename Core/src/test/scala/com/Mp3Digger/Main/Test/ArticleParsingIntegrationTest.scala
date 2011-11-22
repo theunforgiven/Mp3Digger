@@ -131,7 +131,7 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
 
   }
   ignore("Can json a post file part") {
-    val postFilePart: PostFilePart = new PostFilePart("title", 1, "articleid", 12345)
+    val postFilePart: PostFilePart = new PostFilePart(1, "articleid", 12345)
     val asJson = toJsonString(postFilePart)
 
     asJson should not be (null)
@@ -140,7 +140,7 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
   }
 
   ignore("Can json a post") {
-    val post = new Post(None, "poster", "filename", 2, List())
+    val post = new Post(None, "poster", "filename", 2, "title", List())
     val asJson = toJsonString(post)
 
     asJson should not be (null)
@@ -148,8 +148,8 @@ class ArticleParsingIntegrationTest extends FunSuite with ShouldMatchers with Be
     jsonStringToObject[Post](asJson) should be(post)
   }
   ignore("Can json a post and post file parts") {
-    val postFilePart: PostFilePart = new PostFilePart("title", 1, "articleid", 12345)
-    val post = new Post(Option("abc"), "poster", "filename", 2, List(postFilePart))
+    val postFilePart: PostFilePart = new PostFilePart(1, "articleid", 12345)
+    val post = new Post(Option("abc"), "poster", "filename", 2, "title",List(postFilePart))
     val asJson = toJsonString(post)
 
     asJson should not be (null)

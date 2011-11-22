@@ -1,7 +1,7 @@
 package com.Mp3Digger.Actor
 
 import akka.actor.Actor
-import Messages.{SaveArticleBatch, FetchArticleBatch, FetchLastArticleNumber}
+import Messages.{FetchNewsgroupList, SaveArticleBatch, FetchArticleBatch, FetchLastArticleNumber}
 import org.apache.commons.net.nntp.{NewsgroupInfo, NNTPClient}
 import com.Mp3Digger.Service.{Batch, NNTPClientFactory}
 import scala.collection.JavaConversions._
@@ -10,6 +10,7 @@ import com.novus.salat._
 import com.novus.salat.global._
 import java.io.File
 import com.Mp3Digger.Parsing.{ArticleDtoBase, ArticleParser, ArticleDto}
+import com.Mp3Digger.Repository.Newsgroup
 
 class NtpActor(nntpClientFactory: NNTPClientFactory) extends Actor {
   val articleParser = new ArticleParser()
@@ -43,6 +44,12 @@ class NtpActor(nntpClientFactory: NNTPClientFactory) extends Actor {
   }
 
 
+  def getNewsGroups(): List[Newsgroup] = {
+    ntpClient.iterateNewsgroups()
+      .map(Newsgroup(_))
+      .toList
+  }
+
   protected def receive = {
     case FetchLastArticleNumber(newsGroup: String) => {
       val articleCount = getArticleCount(newsGroup)
@@ -53,6 +60,12 @@ class NtpActor(nntpClientFactory: NNTPClientFactory) extends Actor {
       println("Would fetch headers of group " + newsGroup + " from " + batch.start + " to " + batch.end)
       val articleBatch = getArticleBatch(batch, newsGroup)
       self.channel ! SaveArticleBatch(batch, articleBatch)
+    }
+
+    case FetchNewsgroupList() => {
+      println("Fetching server newsgroup list")
+      val newsGroups = getNewsGroups()
+      println("Got newsgroups")
     }
   }
 }

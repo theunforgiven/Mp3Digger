@@ -2,7 +2,7 @@ package com.Mp3Digger.Actor
 
 import java.util.concurrent.CountDownLatch
 import akka.actor.{PoisonPill, ActorRef, Actor}
-import Messages.{SaveArticleBatch, FetchArticleBatch, FetchLastArticleNumber, FetchArticles}
+import Messages._
 import scala.math.max
 import com.Mp3Digger.Service.{Batch, BatchFactory}
 
@@ -20,7 +20,9 @@ class Director(workerCount: Int, batchCount: Int, ntpPool: ActorRef, filePool: A
 
       ntpPool ! PoisonPill
     }
-
+    case FetchNewsgroupList() => {
+      ntpPool ! FetchNewsgroupList()
+    }
     case SaveArticleBatch(batch, articles) => {
       filePool ! SaveArticleBatch(batch, articles)
     }

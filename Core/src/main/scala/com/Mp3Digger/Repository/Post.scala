@@ -10,18 +10,19 @@ case class Post(@(OptionTypeHint @field)(value = classOf[String]) id: Option[Str
                 poster: String,
                 fileName: String,
                 totalFilePartCount: Int,
+                subject: String,
                 @(JSONTypeHint @field)(value = classOf[PostFilePart]) postFileParts: List[PostFilePart]) {
-	private def this() = this(null, null, null, 0, null)
+	private def this() = this(null, null, null, 0, null, null)
 
 }
 
 @BeanInfo
-case class PostFilePart(title: String, filePart: Int, articleId: String, articleNumber: Long) {
-	private def this() = this(null, 0, null, 0)
+case class PostFilePart(filePart: Int, articleId: String, articleNumber: Long) {
+	private def this() = this(0, null, 0)
 }
 
 object PostImports {
 
-	implicit val PostFormat        : Format[Post]         = asProduct5("id", "poster", "fileName", "totalFilePartCount", "postFileParts")(Post)(Post.unapply(_).get)
-	implicit val PostFilePartFormat: Format[PostFilePart] = asProduct4("title", "filePart", "articleId", "articleNumber")(PostFilePart)(PostFilePart.unapply(_).get)
+	implicit val PostFormat        : Format[Post]         = asProduct6("id", "poster", "fileName", "totalFilePartCount", "subject", "postFileParts")(Post)(Post.unapply(_).get)
+	implicit val PostFilePartFormat: Format[PostFilePart] = asProduct3("filePart", "articleId", "articleNumber")(PostFilePart)(PostFilePart.unapply(_).get)
 }
