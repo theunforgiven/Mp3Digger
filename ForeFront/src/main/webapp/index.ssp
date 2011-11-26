@@ -1,17 +1,30 @@
+#import(com.ForeFront.Model._)
 <%@ val currentOffset: Int = 0 %>
-<%@ var files: String %>
-<h1>Hello</h1>
+<%@ var files: List[FilePost] %>
 
-<p>
-    Welcome to this Lift Scalate demo
-</p>
-<p>
-<h1>Files In Database</h1>
-#if (currentOffset > 0)
-    <a href="/articles/<%= (currentOffset - 100).toString %>">Previous Page</a>
-    <a href="/articles/<%= (currentOffset + 100).toString %>">Next Page</a>
-#else
-    <a href="/articles/100">Next Page</a>
-#end
-<%= unescape(files) %>
-</p>
+<div class="page-header">
+    <h1>File List
+        <small>Raw file listing of usenet group.</small>
+    </h1>
+</div>
+<div class="span16">
+    #if (currentOffset > 0)
+        <a style="float: left;" href="/fileList/<%= (currentOffset - 1).toString %>">Previous Page</a>
+        <a style="float: right;" href="/fileList/<%= (currentOffset + 1).toString %>">Next Page</a>
+    #else
+        <a style="float: right;" href="/fileList/1">Next Page</a>
+    #end
+    <% render("model/filePostList.ssp", Map('filePostList -> files)) %>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#fileList").dataTable({
+            "bJQueryUI": true,
+            "bPaginate": false,
+            "bProcessing": true
+
+        });
+    });
+
+</script>

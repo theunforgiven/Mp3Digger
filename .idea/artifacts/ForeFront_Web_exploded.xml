@@ -7,6 +7,7 @@
         <element id="directory" name="classes">
           <element id="module-output" name="ForeFront" />
           <element id="module-output" name="Core" />
+          <element id="file-copy" path="$PROJECT_DIR$/ForeFront/rebel.xml" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="org.scala-lang_scala-library_2.9.1" />
@@ -37,9 +38,7 @@
           <element id="library" level="project" name="se.scalablesolutions.akka_akka-actor-tests_1.2" />
           <element id="library" level="project" name="se.scalablesolutions.akka_akka-redis-mailbox_1.2" />
           <element id="library" level="project" name="net.debasishg_redisclient_2.9.0_2.3.1" />
-          <element id="library" level="project" name="junit_junit_4.8.1" />
           <element id="library" level="project" name="commons-pool_commons-pool_1.5.5" />
-          <element id="library" level="project" name="org.slf4j_slf4j-log4j12_1.5.8" />
           <element id="library" level="project" name="log4j_log4j_1.2.16" />
           <element id="library" level="project" name="se.scalablesolutions.akka_akka-mailboxes-common_1.2" />
           <element id="library" level="project" name="se.scalablesolutions.akka_akka-file-mailbox_1.2" />
@@ -67,6 +66,24 @@
           <element id="library" level="project" name="org.scalatra_scalatra-scalate_2.9.1_2.0.1" />
           <element id="library" level="project" name="org.fusesource.scalate_scalate-core_1.5.2" />
           <element id="library" level="project" name="org.fusesource.scalate_scalate-util_1.5.2" />
+          <element id="library" level="project" name="org.slf4j_slf4j-log4j12_1.6.4" />
+          <element id="library" level="project" name="junit_junit_4.8.2" />
+          <element id="library" level="project" name="org.scalatra_scalatra-scalatest_2.9.1_2.0.1" />
+          <element id="library" level="project" name="org.scalatra_scalatra-test_2.9.1_2.0.1" />
+          <element id="library" level="project" name="org.eclipse.jetty_test-jetty-servlet_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-webapp_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-xml_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-util_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-servlet_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-security_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-server_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-continuation_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-http_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.eclipse.jetty_jetty-io_7.4.5.v20110725" />
+          <element id="library" level="project" name="org.mockito_mockito-all_1.8.5" />
+          <element id="library" level="project" name="org.apache.commons_commons-lang3_3.0.1" />
+          <element id="library" level="project" name="org.scalatest_scalatest_2.9.1_1.6.1" />
+          <element id="library" level="project" name="org.scala-tools.subcut_subcut_2.9.1_1.0-SNAPSHOT" />
         </element>
       </element>
     </root>

@@ -1,0 +1,33 @@
+#import(com.ForeFront.Model._)
+<%@ val filePostList: List[FilePost] %>
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="fileList">
+    <thead>
+        <tr>
+            <th>Filename</th>
+            <th>Poster</th>
+            <th>Subject</th>
+            <th>Have Parts</th>
+            <th>Total Parts</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Filename</th>
+            <th>Poster</th>
+            <th>Subject</th>
+            <th>Have Parts</th>
+            <th>Total Parts</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        #for (filePost <- filePostList)
+            <tr>
+                <td>${filePost.fileName}</td>
+                <td>${filePost.poster}</td>
+                <td>${filePost.subject}</td>
+                <td>${filePost.haveParts}</td>
+                <td>${filePost.totalParts}</td>
+            </tr>
+        #end
+    </tbody>
+</table>

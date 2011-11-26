@@ -27,6 +27,8 @@ object Mp3Usenet {
   }
 
   def main(args: Array[String]) {
+    log.warn("Starting")
+    sys.exit()
     // this latch is only plumbing to know when the calculation is completed
     val latch = new CountDownLatch(1)
 
